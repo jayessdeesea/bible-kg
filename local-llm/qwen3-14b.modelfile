@@ -1,0 +1,13 @@
+FROM qwen3:14b
+
+PARAMETER num_ctx 16384
+PARAMETER num_thread 12
+PARAMETER num_batch 512
+PARAMETER num_gpu 0
+PARAMETER num_keep 48
+PARAMETER seed 42
+PARAMETER f16_kv true
+PARAMETER logits_all false
+PARAMETER vocab_only false
+PARAMETER use_mmap true
+PARAMETER use_mlock false

@@ -1,0 +1,24 @@
+# CLine Rules
+
+Do not read the kjv.txt file. It is too big and will fill your context window.
+
+When debugging
+
+- Prefer adding logging and reading log files over guessing what is going on
+- It is better to debug with data than making bad guesses
+
+Prefer using the cli to building start ".sh" or start ".bat" scripts
+
+We don't need health checks in our docker files
+
+Markdown files in the doc directory are project specifications
+
+- specifications use English to describe how things work, NOT code
+- specifications DO NOT include code
+- specifications SHOUD include schema and/or json examples of data structures to help clarify 
+
+Use idomatic Python a the general programming language
+
+- Follow best practices
+- Produce working code
+- Mocks only exist in the test directory
